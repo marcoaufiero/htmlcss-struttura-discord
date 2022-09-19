@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightgrey;
+    height: 700px;
+}
+
+.flex{
+    display: flex;
+}
+
+nav{
+    width: 70%;
+    height: 100px;
+    background-color: lightcoral;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav > *{
+    background-color: lightgreen;
+}
+
+#discord-logo{
+    flex-basis: 10%;
+    height: 100px;
+}
+
+.nav-info{
+    flex-basis: 40%;
+    height: 100px;
+}
+
+nav > .btn{
+    flex-basis: 10%;
+    height: 100px;
+}
+
+.banner{
+    width: 50%;
+    margin: auto;
+    height: 600px;
+    background-color: orange;
+}
