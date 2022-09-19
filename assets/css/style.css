@@ -6,18 +6,22 @@
 
 header{
     background-color: lightgrey;
-    height: 700px;
+    height: 600px;
 }
 
 .flex{
     display: flex;
 }
 
+.container{
+    width: 70%;
+    margin: auto;
+}
+
 nav{
     width: 70%;
     height: 100px;
     background-color: lightcoral;
-    margin: auto;
     justify-content: space-between;
 }
 
@@ -43,6 +47,38 @@ nav > .btn{
 .banner{
     width: 50%;
     margin: auto;
-    height: 600px;
+    height: 500px;
     background-color: orange;
+}
+
+.short-section{
+    height: 500px;
+}
+
+.long-section{
+    height: 1300px;
+}
+
+section:nth-child(even){
+    background-color: lightgrey;
+}
+
+section > div{
+    justify-content: space-between;
+}
+
+.img{
+    height: 400px;
+    flex-basis: 45%;
+    background-color: lightgreen;
+}
+
+.text{
+    height: 400px;
+    flex-basis: 45%;
+    background-color: green;
+}
+
+.padding{
+    padding: 50px 0;
 }
